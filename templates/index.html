@@ -1,24 +1,42 @@
 {% extends "base.html" %}
 
 {% block title %}{{ metadata.title or "#FollowtheMoneyCO" }}: {% for database in databases %}{{ database.name }}{% if not loop.last %}, {% endif %}{% endfor %}{% endblock %}
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-9567901-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
+  gtag('config', 'UA-9567901-2');
+</script>
+
+  
 {% block body_class %}index{% endblock %}
 
 {% block content %}
 <h1>{{ metadata.title or "#FollowtheMoneyCO" }}</h1>
 {% block description_source_license %}{% include "_description_source_license.html" %}{% endblock %}
 
-<p>FollowtheMoneyCO is a joint project of the media collaborative COLab and the Colorado Sun, funded by the <a href="https://coloradomediaproject.com/" target="blank">Colorado Media Project</a> and <a href="https://coloradosun.com/" target="blank">The Colorado Sun.</a></p>
+<p>FollowtheMoneyCO aims to make Colorado campaign finance data more accessible to journalists and the public using downloadable data from the Colorado Secretary of State’s TRACER system. </p>
 
-<p>The project aims to make Colorado campaign finance data more accessible to journalists and the public using downloadable data from the Colorado Secretary of State’s TRACER system. </p>
+<p>In 2022, we'll have data on fundraising, spending and loans for state House, Senate and statewide candidates, as well as fundraising and spending for issue committees, super PACs and traditional PACs at the state. Eventually, we'll track outside spending in state contests.</p>
 
-<p><strong>Quickstart:</strong> Click on Colorado Campaign Finance, choose a table. Then query the data using the dropdown menu to select, say = ASPEN from the city column. The results may be downloaded as a CSV (best for using a spreadsheet) or json file. </p>
+<p><strong>Quickstart:</strong> Click on campaign_finance_2022 and choose a table. Query the data using the dropdown menu to select, say = ASPEN from the city column. The results may be downloaded as a CSV (best for using a spreadsheet) or json file. </p>
 
 <p><strong>See the <a href="/about" target="blank">about page</a></strong> for more details on the data and what it includes.</p>
 
 <p><strong>Need more info on queries? <a href="/sql" target="blank">Click here to read more</a></strong>  about using SQL.</p>
 
-<p><strong>Most recent update:</strong> May 10, with some standardization of city names for House, Senate and education candidate contributions.</p>
+<p>Want to know what state-level candidates and committees are spending their cash on? Head over to <a href="http://ftm.copolitics.co/" target="blank">Follow the Message,</a> where many of them are being collected. Email yours to fishnette(at)gmail.com.</p>
+
+<p><strong>Most recent updates:</strong></p>
+<ol>
+    <li>Jan. 19 for 2022 candidates and committees.</li>
+    <li>Jan. 30 for 2019 school board and outside spending on school board contests.</li>
+    <li>Dec. 28, 2020, for 2020 campaign finance and for state-level outside spending, where support/oppose means the spender is supporting the first candidate named in the candidate column and opposing the other.</li>
+</ol>
+<p>Questions or corrections, email fishnette (at) gmail.com.</p>
 
 {% for database in databases %}
     <h2 style="padding-left: 10px; border-left: 10px solid #{{ database.color }}"><a href="{{ database.path }}">{{ database.name }}</a></h2>

@@ -12,11 +12,14 @@
 
  <h1 class="title">About #FollowtheMoneyCO</h1>
     
- <p>FollowtheMoneyCO is a joint project of the media collaborative COLab and the Colorado Sun, funded by the Colorado Media Project and the Colorado Sun.</p>
+ <p>FollowtheMoneyCO is a campaign finance data site operated by <a href="https://twitter.com/fishnette" target="blank">Sandra Fish</a>. The site originated in 2020 as a joint project of the media collaborative COLab and the Colorado Sun, funded by the Colorado Media Project and the Colorado Sun.</p>
 
-<p>The project aims to make Colorado campaign finance data more accessible to journalists and the public using downloadable data from the Colorado Secretary of State’s TRACER. </p>
+<p>The project aims to make Colorado campaign finance data more accessible to journalists and the public using downloadable data from the <a href="https://tracer.sos.colorado.gov/PublicSite/Homepage.aspx" target="blank">Colorado Secretary of State’s TRACER</a>. </p>
 
 <p><strong>Need more info on querying the data?</strong> <a href="/sql" target="blank">Click here to read more</a> about using SQL.</p>
+
+<h3>The latest</h3>
+<p>It's 2022, and we've got the data for candidates for state House, Senate and statewide offices, including University of Colorado Regent and Board of Education. We also have data spending and cash raised by super PACs, issue committees and traditional PACs and political parties.</p>
 
 <h3>Where the data comes from</h3>
 
@@ -26,28 +29,25 @@
 
 <p>For legislative candidates, the TRACER data is merged with a list of candidate committee numbers. Other tables are created by selecting committee types.</p>
 
-<p>Information about contribution limits for various types of committees may be found on <a href="https://www.sos.state.co.us/pubs/elections/CampaignFinance/limits/acceptance.html#representatives" target=“blank”> this page,</a> from the Secretary of State’s Office. The Campaign Finance Institute also offers an <a href="https://cfinst.github.io/#contribution-limits?question=IndividualToCandLimit_H_Max&year=2018" target=“blank”>interactive database</a> of campaign finance and disclosure laws in all 50 states, which is a great way to compare Colorado to other states.</p>
+<p>Information about contribution limits for various types of committees may be found on <a href="https://www.sos.state.co.us/pubs/elections/CampaignFinance/limits/acceptance.html" target=“blank”> this page,</a> from the Secretary of State’s Office. The Campaign Finance Institute also offers an <a href="https://cfinst.github.io/" target=“blank”>interactive database</a> of campaign finance and disclosure laws in all 50 states, which is a great way to compare Colorado to other states.</p>
 
+<p>If you have questions, requests or feedback please email fishnette(at)gmail.com</p>
 
-<h3>Future plans</h3>
-
-<p>In the future, FollowtheMoneyCO will feature standardized city and state names. We also expect to provide data on independent spending on legislative contests as well as electioneering communications, which often include nonprofit spending on ads that mention candidates.</p>
-
-<p>If you have questions, requests or feedback please email fish(at)coloradomediaproject.com</p>
-
-<h3>Table descriptions</h3>
-<p>The tables include:</p>
+<h3>2022 Table descriptions</h3>
+<p>The 2022 tables include:</p>
 
 <table>
 	<thead><tr><th>Table name</th><th>Description</th></tr></thead>
 	<tbody>
-		<tr><td>house_cand_expenses</td><td>Spending by state House candidates</td></tr>
-		<tr><td>house_cand_cont</td><td>Fundraising by state House candidates</td></tr>
-		<tr><td>issue_comm_cont</td><td>Fundraising by issue committees, including small-donor issue committees (typically these work on state or local ballot initiatives)</td></tr>
+		<tr><td>house_exp</td><td>Spending by state House candidates</td></tr>
+		<tr><td>house_cont</td><td>Fundraising by state House candidates</td></tr>
+		<tr><td>issue_comm_cont</td><td>Fundraising by issue committees, including small-donor issue committees (typically these work on state or local ballot initiatives). Keep in mind that some of these committees were focused on 2021 satewide issues.</td></tr>
 		<tr><td>issue_comm_exp</td><td>Spending by issue committees</td></tr>
-		<tr><td>leg_loans</td><td>Loans by legislative candidates to their campaigns. This includes repayments, to the balance is the best number to use. Also check the loan date, as some may have been made in prior campaign cycles.</td></tr>
-		<tr><td>senate_cand_expenses</td><td>Spending by state Senate candidates. This is limited only to candidates for 2020 and includes data from 2017 through the present.</td></tr>
-		<tr><td>senate_cand_cont</td><td>Fundraising by state Senate candidates. This is limited only to candidates for 2020 and includes data from 2017 through the present.</td></tr>
+		<tr><td>cand_loans</td><td>Loans by legislative candidates to their campaigns. This includes repayments, to the balance is the best number to use. Also check the loan date, as some may have been made in prior campaign cycles.</td></tr>
+		<tr><td>senate_exp</td><td>Spending by state Senate candidates. This is limited only to candidates for 2022 and includes data from 2019 through the present.</td></tr>
+		<tr><td>senate_cont</td><td>Fundraising by state Senate candidates. This is limited only to candidates for 2022 and includes data from 2019 through the present.</td></tr>
+		<tr><td>state_cont</td><td>Fundraising by candidates for governor, attorney general, secretary of state, treasurer, state board of education and CU regents. This includes data from 2019 through the present.</td></tr>
+		<tr><td>state_exp</td><td>Spending by candidates for governor, attorney general, secretary of state, treasurer, state board of education and CU regents. This includes data from 2019 through the present.</td></tr>
 		<tr><td>super_pacs_cont</td><td>Fundraising by independent expenditure committees and 527 committees. Both of these committees may accept unlimited contributions from individuals or corporations. Key caveat: Some groups have both IECs and 527s with one committee taking donations and passing them to another. Examining the committee_type is essential to avoid double-counting.</td></tr>
 		<tr><td>super_pacs_exp</td><td>Spending by independent expenditure committees and 527 committees. Both these committees may spend unlimited amounts of money to support or oppose candidates as long as they don’t coordinate with the candidates.</td></tr>
 		<tr><td>trad_pacs_cont</td><td>Fundraising by traditional political action committees, political party committees and small donor committees.</td></tr>
