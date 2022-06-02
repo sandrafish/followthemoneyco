@@ -1,0 +1,48 @@
+District,candidate,Party,loan_amount,loan_date,payment_amount,payment_date,loan_balance,filed_date
+House District 43,"Huffman, Kurt",Republican,50000,8/24/21 0:00,,,50000,11/2/21 0:00
+House District 43,"Huffman, Kurt",Republican,50000,4/14/22 0:00,,,50000,4/27/22 0:00
+Secretary of State,"O'Donnell, Francis",Republican,50000,12/14/21 0:00,,,50000,1/16/22 0:00
+Governor,"Ganahl, Heidi",Republican,50000,9/14/21 0:00,,,50000,10/15/21 0:00
+House District 14,"Sandridge, Shane",Republican,10000,9/30/21 0:00,,,10000,10/11/21 0:00
+Senate District 01,"Van Beber, Tonya",Republican,7900,11/1/21 0:00,,,7900,1/25/22 0:00
+Senate District 01,"Van Beber, Tonya",Republican,7000,11/1/21 0:00,,,7000,1/18/22 0:00
+House District 21,"Bradfield, Mary",Republican,6000,12/10/21 0:00,,,6000,1/18/22 0:00
+House District 21,"Dent, Karl",Republican,5000,4/5/22 0:00,,,5000,4/29/22 0:00
+House District 55,"Weber, Patricia",Republican,5000,12/28/21 0:00,,,5000,1/7/22 0:00
+Senate District 11,"Avila, Yolanda",Democratic,5000,11/22/21 0:00,,,5000,1/3/22 0:00
+Secretary of State,"Anderson, Pam",Republican,5000,10/21/21 0:00,,,5000,1/18/22 0:00
+Secretary of State,"Anderson, Pam",Republican,5000,12/9/21 0:00,,,5000,1/18/22 0:00
+House District 17,"Stovall, Rachel",Republican,4995,11/3/21 0:00,,,4995,1/14/22 0:00
+Senate District 22,"Danielson, Jessie",Democratic,4000,1/13/19 0:00,4000,10/29/20 0:00,0,1/15/21 0:00
+House District 12,"Bernett, Tracey",Democratic,3000,10/18/21 0:00,,,3000,1/12/22 0:00
+House District 12,"Bernett, Tracey",Democratic,3000,11/15/21 0:00,,,3000,1/12/22 0:00
+House District 12,"Bernett, Tracey",Democratic,3000,12/3/21 0:00,,,3000,1/12/22 0:00
+House District 18,"Snyder, Marc",Democratic,2500,12/12/18 0:00,2500,1/20/21 0:00,0,4/11/21 0:00
+House District 46,"Ambler, Jonathan",Republican,2500,11/30/21 0:00,,,2500,1/14/22 0:00
+House District 53,"Boesenecker, Andrew",Democratic,1500,12/14/20 0:00,1500,5/16/21 0:00,0,7/15/21 0:00
+House District 53,"Boesenecker, Andrew",Democratic,1500,12/14/20 0:00,,,0,4/15/21 0:00
+House District 61,"Woolever, Dave",Republican,1500,2/8/22 0:00,,,1500,4/29/22 0:00
+House District 14,"Rogers, Rob",Democratic,1000,2/2/22 0:00,,,1000,4/29/22 0:00
+House District 18,"Snyder, Marc",Democratic,1000,12/1/18 0:00,1000,1/20/21 0:00,0,4/11/21 0:00
+House District 18,"Snyder, Marc",Democratic,1000,12/29/17 0:00,500,1/20/21 0:00,500,4/11/21 0:00
+House District 45,"Jack, William (Bill)",Republican,1000,10/12/21 0:00,,,1000,1/18/22 0:00
+House District 45,"Martinez, Ruby",Democratic,1000,2/22/22 0:00,,,1000,4/29/22 0:00
+House District 47,"Winter, Ty",Republican,1000,1/29/22 0:00,,,1000,4/28/22 0:00
+House District 47,"Winter, Ty",Republican,1000,12/11/21 0:00,,,1000,1/4/22 0:00
+House District 48,"Evans, Gabe",Republican,1000,12/9/21 0:00,,,1000,1/4/22 0:00
+Senate District 09,"Dougherty, Arik",Democratic,1000,4/4/22 0:00,,,1000,4/29/22 0:00
+House District 21,"Dent, Karl",Republican,600,2/26/22 0:00,,,600,4/29/22 0:00
+House District 61,"Woolever, Dave",Republican,600,4/20/22 0:00,,,600,4/29/22 0:00
+House District 63,"Vance, Jessie",Republican,520,10/12/21 0:00,,,520,1/18/22 0:00
+House District 18,"Snyder, Marc",Democratic,500,11/9/17 0:00,500,1/20/21 0:00,0,4/11/21 0:00
+House District 25,"Larson, Colin",Republican,500,1/26/21 0:00,,,500,4/15/21 0:00
+Senate District 15,"Marchman, Janice",Democratic,500,11/13/21 0:00,,,100,1/18/22 0:00
+Senate District 15,"Marchman, Janice",Democratic,500,11/13/21 0:00,400,12/31/21 0:00,100,1/18/22 0:00
+House District 63,"Vance, Jessie",Republican,226.24,12/31/21 0:00,,,226.24,1/18/22 0:00
+House District 63,"Vance, Jessie",Republican,187.88,11/30/21 0:00,,,187.88,1/18/22 0:00
+House District 63,"Vance, Jessie",Republican,94.08,10/31/21 0:00,,,94.08,1/18/22 0:00
+House District 63,"Vance, Jessie",Republican,58.24,11/30/21 0:00,,,58.24,1/18/22 0:00
+House District 61,"Woolever, Dave",Republican,50,4/8/22 0:00,,,50,4/29/22 0:00
+House District 63,"Vance, Jessie",Republican,10.95,12/2/21 0:00,,,10.95,1/18/22 0:00
+Senate District 01,"Van Beber, Tonya",Republican,-7000,11/1/21 0:00,,,-7000,1/25/22 0:00
+Governor,"Ganahl, Heidi",Republican,-50000,9/14/21 0:00,,,-50000,1/8/22 0:00

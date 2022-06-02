@@ -1,3 +1,4 @@
+@charset "UTF-8";
 {% extends "base.html" %}
 
 {% block title %}{{ metadata.title or "#FollowtheMoneyCO" }}: {% for database in databases %}{{ database.name }}{% if not loop.last %}, {% endif %}{% endfor %}{% endblock %}
@@ -32,7 +33,7 @@
 
 <p><strong>Most recent updates:</strong></p>
 <ol>
-    <li>April 30 for 2022 candidates and committees.</li>
+    <li>June 1 for 2022 candidates and committees.</li>
     <li>Jan. 30 for 2019 school board and outside spending on school board contests.</li>
     <li>Dec. 28, 2020, for 2020 campaign finance and for state-level outside spending, where support/oppose means the spender is supporting the first candidate named in the candidate column and opposing the other.</li>
 </ol>
